@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main, footer, header div{
+    margin: auto;
+    width: 70%;
+}
+
+header{
+    height: 80px;
+    background-image: url("../img/pattern.png");
+    background-color:deepskyblue;
+    background-size: 400px;
+}
+
+.logo{
+    width: 150px;
+    position: relative;
+    top: 40px;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.titolo{
+    font-size: 40px;
+    line-height: 80%;
+}
+
+.suggerimenti_{
+    color: grey;
+}
+
+.writer{
+    color:deepskyblue;
+}
+
+.didascalia{
+    font-size: 10px;
+}
+
+ul{
+    padding: 15px;
+}
+
+.evidenziatore{
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th{
+    background-color:deepskyblue;
+    color: white;
+    padding: 5px;
+}
+
+tr:nth-child(odd){
+    background-color: #b1e5f2;
+}
+
+
+table td {
+    padding: 5px;
+    min-width: 250px;
+}
+
+footer{
+    color: white;
+    margin-top: 20px;
+}
+
+.img1{
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    padding: 18px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.img2{
+    background-image: url("../img/graph.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    padding: 18px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+h4, h5{
+    color: grey;
+}
